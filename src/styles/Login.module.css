@@ -1,0 +1,109 @@
+.container {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.msgSection {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #8E7DBE;
+    padding: 40px 10%;
+    gap: 8px;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url("https://www.pikpng.com/pngl/b/154-1544038_star-border-png.png"); */
+    
+}
+.formSection { 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+    background-color: #C7D9DD;
+}
+.input {
+    width: 90%;
+    max-width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: none;
+}
+.formHead {
+    font-size: 20px;
+    color: #8E7DBE;
+    font-weight: 600;
+}
+.heading {
+    font-size: 40px;
+    color:#FFF;
+    font-weight: 600;
+    text-align: left;
+}
+.subHeading {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 500;
+    z-index: 2;
+}
+.btnGhost {
+    background-color: #C7D9DD;
+    padding: 10px;
+    font-weight: 700;
+    color: #8E7DBE;
+    text-decoration: underline;
+}
+.switchMsg {
+    font-size: 16px;
+    color: #333;
+}
+.decorator {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.decorator1 {
+    top: 0;
+    left: 0;
+    /* background: radial-gradient(circle, #ff8a8a40 21%, #8e7dbe, #8e7dbe); */
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/664/437/non_2x/gold-star-shotting-gold-star-transparent-gold-bokeh-stars-free-free-png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    opacity: .5;
+}
+.decorator2 {
+    width: 200px;
+    height: 300px;
+    bottom: 10%;
+    right: 3%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/664/437/non_2x/gold-star-shotting-gold-star-transparent-gold-bokeh-stars-free-free-png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    opacity: .2;
+}
+.decorator3 {
+    width: 300px;
+    height: 300px;
+    top: 5%;
+    right: -20%;
+    background: radial-gradient(circle, #e6fb6763 21%, #8e7dbe, #8e7dbe);
+}
+.decorator4 {
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, #e6fb6763 21%, #8e7dbe, #8e7dbe);
+    bottom: 0;
+    left: -15%;
+}
