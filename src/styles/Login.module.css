@@ -31,14 +31,6 @@
     z-index: 1;
     background-color: #C7D9DD;
 }
-.input {
-    width: 90%;
-    max-width: 400px;
-    height: 40px;
-    border-radius: 10px;
-    padding: 0 10px;
-    border: none;
-}
 .formHead {
     font-size: 20px;
     color: #8E7DBE;
