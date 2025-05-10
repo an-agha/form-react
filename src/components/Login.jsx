@@ -44,7 +44,6 @@ function Login({ onSignUp }) {
                 }
             })
         }
-        console.log(errors)
     }
 
     const submit = () => {
@@ -54,6 +53,7 @@ function Login({ onSignUp }) {
             email:emailValue,
             password:passwordValue,
         })
+        console.log(errors)
     }
 
     return (
